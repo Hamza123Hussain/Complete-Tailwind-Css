@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /* This is @layer base allows us to change the html and also add custom classes that we add to our componnets
+   styling in tailwind css   */
+  html {
+    @apply bg-gray-500; /* apply allows us to ass tailcss classes for styling our custom classes*/
+  }
+  .card {
+    @apply bg-purple-700;
+  }
+}
