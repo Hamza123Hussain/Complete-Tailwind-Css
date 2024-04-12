@@ -8,19 +8,21 @@ const TypoGraphy = () => {
       <h1 className=" text-xl underline ">big</h1>
       <h1 className=" text-2xl"> bigger</h1>
       <h1 className="text-3xl leading-10">biggest</h1>
-      <h1 className="text-9xl underline  decoration-wavy decoration-4 ">
-        {' '}
+      <h1 className="text-9xl underline  decoration-wavy underline-offset-8 ">
+        {
+          //   'The underline offest means the distance bwteen the underline and the text '
+        }
         {/**Decoration class controls all the underline, orderlines propeties on a text, the thickness, color and the style of line**/}
         giant
       </h1>
-      <p className=" truncate">
+      <p className=" truncate capitalize">
         {' '}
         {/**The truncate class makes the overflow hidden */}
         Lorem ipsum dolor sit amet consectetur adipisicing elit. A molestiae id
         magni repellat ex impedit, cumque nemo ad delectus odit maxime minus
         facere, autem, beatae sequi quo ipsa blanditiis quisquam.
       </p>
-      <p className=" text-clip" style={{ width: '350px' }}>
+      <p className=" text-clip uppercase" style={{ width: '350px' }}>
         {' '}
         {/**The truncate class makes the overflow hidden */}
         All he could think about was how it would all end. There was still a bit
